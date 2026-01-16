@@ -1,0 +1,42 @@
+site_name: 结构化学 Ⅱ
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.expand         # 左侧导航默认展开
+    - navigation.top            # 回到顶部
+    - toc.follow                # 右侧目录跟随滚动
+    - toc.integrate             # 右侧目录更“像文档”
+    - search.suggest            # 搜索提示
+    - search.highlight          # 搜索高亮
+    - content.code.copy         # 代码复制按钮
+
+nav:
+  - 课程主页: index.md
+  - 课堂笔记:
+      - 01 第一讲: lectures/01.md
+      - 02 第二讲: lectures/02.md
+      - 03 第三讲: lectures/03.md
+  - 作业: 
+      - HW01: homework/hw01.md
+  - 资料: resources.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  # 数学公式支持（写 LaTeX 必备）
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
