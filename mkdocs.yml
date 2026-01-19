@@ -1,4 +1,4 @@
-site_name: 结构化学 Ⅱ
+site_name: My Notes
 theme:
   name: material
   language: zh
@@ -12,14 +12,19 @@ theme:
     - content.code.copy         # 代码复制按钮
 
 nav:
-  - 课程主页: index.md
-  - 课堂笔记:
-      - 01 第一讲: lectures/01.md
-      - 02 第二讲: lectures/02.md
-      - 03 第三讲: lectures/03.md
-  - 作业: 
-      - HW01: homework/hw01.md
-  - 资料: resources.md
+  - 首页: index.md
+
+  - 计算化学导论:
+      - 课程主页: 计算化学导论/index.md
+
+  - 结构II：分子谱学:
+      - 课程主页: 结构II：分子谱学/index.md
+
+  - 数据结构基础:
+      - 课程主页: 数据结构基础/index.md
+
+  - 物理化学I:
+      - 课程主页: 物理化学I/index.md
 
 plugins:
   - search
