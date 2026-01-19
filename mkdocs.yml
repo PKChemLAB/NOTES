@@ -47,7 +47,11 @@ nav:
 
   - 物理化学I:
       - 课程主页: 物理化学I/index.md
+  
+  - Papers:
+    - 总览: papers/index.md
 
+copyright: Copyright &copy; 2026 Peikai Chen
 
 mmarkdown_extensions:
   - admonition
