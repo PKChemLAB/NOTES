@@ -46,14 +46,14 @@ $$
 
 ---
 
-### 1.1.3 物理量与定义
+### 1.1.3 物理量
 
 - \(E\)（V/m）：电场强度  
   - 方向：**偏振方向**
 
 - \(B\)（T）：磁场强度  
 
-- 波矢 \(\mathbf{k}\)（wavevector，rad·m\(^{-1}\)）  
+- 波矢 \(\mathbf{k}\)（rad·m\(^{-1}\)）：方向即为波的传播方向
 
 $$
 \begin{aligned}
@@ -97,8 +97,7 @@ E=h\nu
 \end{aligned}
 $$
 
-- 例：\(\lambda=400\,\mathrm{nm}\) 时  
-
+>\(\lambda=400\,\mathrm{nm}\) 
 $$
 \begin{aligned}
 E=\frac{hc}{\lambda}\approx 3.10\,\mathrm{eV}
@@ -109,7 +108,7 @@ $$
 
 ## 1.2 黑体辐射
 
-在一定温度 **\(T\)** 的腔体内，壁发射和吸收的电磁波达到平衡。
+在一定温度 **\(T\)** 的腔体内，壁发射和吸收的电磁波达到平衡
 
 ### 1.2.1 能量密度与强度
 
@@ -123,7 +122,7 @@ $$
 \end{aligned}
 $$
 
-- \(\rho_\nu\)：**光谱能量密度（按频率）**（J·m\(^{-3}\)·Hz\(^{-1}\)）  
+- \(\rho_\nu\)：**光谱能量密度**（J·m\(^{-3}\)·Hz\(^{-1}\)）  
 
 小孔辐射 → 可视作光源。
 
@@ -137,38 +136,31 @@ I=\int I_\nu\, d\nu
 \end{aligned}
 $$
 
-- \(I_\nu\)：**光谱功率强度（按频率）**（W·m\(^{-2}\)·Hz\(^{-1}\)）
+- \(I_\nu\)：**光谱功率强度**（W·m\(^{-2}\)·Hz\(^{-1}\)）
 
 ---
 
 ### 1.2.2 与电场强度的关系
 
-设真空中的平面电磁波沿传播方向前进：
-
+>设真空中的平面电磁波沿传播方向前进：
 $$
 \begin{aligned}
 E(t)=E_0\cos(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)
 \end{aligned}
 $$
-
 电磁场的瞬时能量密度：
-
 $$
 \begin{aligned}
 u(t)=\frac{1}{2}\varepsilon_0E^2(t)+\frac{1}{2\mu_0}B^2(t)
 \end{aligned}
 $$
-
 对真空平面波：
-
 $$
 \begin{aligned}
 B(t)=\frac{E(t)}{c},\qquad c^2=\frac{1}{\varepsilon_0\mu_0}
 \end{aligned}
 $$
-
 因此：
-
 $$
 \begin{aligned}
 \frac{1}{2\mu_0}B^2
@@ -176,17 +168,13 @@ $$
 =\frac{1}{2}\varepsilon_0E^2
 \end{aligned}
 $$
-
 总能量密度：
-
 $$
 \begin{aligned}
 u(t)=\varepsilon_0E^2(t)
 \end{aligned}
 $$
-
 时间平均：
-
 $$
 \begin{aligned}
 \langle \cos^2(\cdots)\rangle=\frac{1}{2}
@@ -194,16 +182,13 @@ $$
 \langle E^2(t)\rangle=\frac{E_0^2}{2}
 \end{aligned}
 $$
-
 $$
 \begin{aligned}
 \langle u\rangle=\varepsilon_0\langle E^2\rangle
 =\frac{1}{2}\varepsilon_0E_0^2
 \end{aligned}
 $$
-
 电磁波以速度 \(c\) 传播，强度为：
-
 $$
 \begin{aligned}
 I=(\text{能量密度})\times c
@@ -214,7 +199,7 @@ $$
 
 ---
 
-### 1.2.3 普朗克黑体辐射定律（Planck's law）
+### 1.2.3 普朗克黑体辐射定律
 
 稳定状态下，按频率的能量密度：
 
@@ -231,8 +216,6 @@ $$
 E=n h\nu,\quad n=1,2,\dots
 \end{aligned}
 $$
-
-常数：
 
 - 玻尔兹曼常数  
 
@@ -266,7 +249,7 @@ $$
 - 发射  
   1) **受激发射（stimulated emission）**  
      新光子与入射光子：频率相同、相位相同、传播方向相同、偏振相同 → **相干**  
-     → 光被“复制”，光强增强  
+
   2) **自发发射（spontaneous emission）**  
      发射方向、相位、偏振随机  
 
@@ -280,11 +263,11 @@ $$
 
 ---
 
-### 1.3.2 半经典近似（semi-classical）
+### 1.3.2 半经典近似
 
 - 分子：量子化能级  
 - 光：经典电磁波  
-- 研究：量子化偶极分子在周期振荡且能量匹配的电场中的响应
+-->研究：偶                       极分子在周期振荡且能量匹配的电场中的响应
 
 ---
 
@@ -357,11 +340,8 @@ $$
 - 分子尺度远小于波长：电场可视作常数  
 - **偶极近似**：电场诱导极化
 
----
 
-### 1.3.5 波函数展开（求 \(a_0(t),a_1(t)\)）
-
-用非微扰本征态作完备基：
+**波函数展开**，用非微扰本征态作完备基：
 
 $$
 \begin{aligned}
@@ -369,19 +349,14 @@ $$
 \end{aligned}
 $$
 
----
-
-### 1.3.6 代入含时薛定谔方程并投影
-
-代入：
-
+代入含时薛定谔方程并投影：
 $$
 \begin{aligned}
 (\hat H^{0}+\hat H')\Psi(t)=i\hbar\frac{\partial \Psi(t)}{\partial t}
 \end{aligned}
 $$
 
-\(\hat H^{0}\) 两边抵消后得到耦合方程（投影到 \(\varphi_0\) 和 \(\varphi_1\)）：
+\(\hat H^{0}\) 两边抵消后,投影(左乘) \(\varphi_0\) 和 \(\varphi_1\)得到耦合方程：
 
 $$
 \begin{aligned}
@@ -399,7 +374,7 @@ i\hbar\,\frac{da_1}{dt}
 \end{aligned}
 $$
 
-由于偶极算符为奇宇称，常见情况下对角项为零：
+由于偶极算符为奇宇称（与奇宇称的位置算符相关），常见情况下对角项为零：
 
 $$
 \begin{aligned}
@@ -408,11 +383,8 @@ $$
 \end{aligned}
 $$
 
----
 
-### 1.3.7 定义参数并得到耦合微分方程
-
-定义：
+定义能级差对应的本征角频率：
 
 $$
 \begin{aligned}
@@ -428,7 +400,7 @@ $$
 \end{aligned}
 $$
 
-得到：
+得到耦合微分方程：
 
 $$
 \begin{aligned}
@@ -442,9 +414,7 @@ $$
 \end{aligned}
 $$
 
----
-
-### 1.3.8 Rabi 频率
+定义**Rabi 频率**：
 
 $$
 \begin{aligned}
@@ -452,31 +422,35 @@ $$
 \end{aligned}
 $$
 
-（很多教材也写为 \(\omega_R=\dfrac{E_0\mu_{01}}{\hbar}\)，通常互为共轭）
-
----
-
-### 1.3.9 旋转波近似（RWA）与完全共振
-
+由：
 $$
 \begin{aligned}
 \cos(\omega t)=\frac{1}{2}\left(e^{i\omega t}+e^{-i\omega t}\right)
 \end{aligned}
 $$
 
-忽略高频项 \(e^{\pm i(\omega_{10}+\omega)t}\) 后（RWA）：
-
+代入耦合方程，忽略高频项 \(e^{\pm i(\omega_{10}+\omega)t}\) 后（旋转波近似）：
 $$
 \begin{aligned}
-\frac{da_0}{dt}\approx
-\frac{i\,a_1\,\omega_R}{2}e^{-i(\omega_{10}-\omega)t},
-\qquad
-\frac{da_1}{dt}\approx
-\frac{i\,a_0\,\omega_R}{2}e^{i(\omega_{10}-\omega)t}
+\frac{d a_0}{d t} &\approx \frac{i a_1 \omega_R}{2}\, e^{-i(\omega_{10}-\omega)t}, 
+\frac{d a_1}{d t} &\approx \frac{i a_0 \omega_R}{2}\, e^{i(\omega_{10}-\omega)t}.
 \end{aligned}
 $$
 
-完全共振：
+>为什么旋转波近似：
+旋转波:把余弦驱动看成两个反向旋转的指数波
+\[
+\begin{aligned}
+\dot a(t) &\sim e^{i\Omega t}
+\\[4pt]
+\Rightarrow\quad
+a(t) &\sim \int_0^t e^{i\Omega t'}\,dt'
+= \frac{e^{i\Omega t}-1}{i\Omega}
+\end{aligned}
+\]
+若 \(\Omega\) 大，积分结果小，对系统影响小
+
+完全共振时：
 
 $$
 \begin{aligned}
@@ -525,7 +499,7 @@ $$
 
 ---
 
-### 1.3.10 基态/激发态概率：Rabi 振荡
+### 1.3.5 基态/激发态概率：Rabi 振荡
 
 激发态概率：
 
@@ -543,10 +517,8 @@ P_0(t)=|a_0(t)|^2=\cos^2\left(\frac{\omega_R t}{2}\right)
 \end{aligned}
 $$
 
-注意区分：
-
 - \(\omega\)：外加电场频率  
-- \(\omega_{10}\)：两态能量差对应频率（Bohr 频率）  
+- \(\omega_{10}\)：两态能量差对应频率
 - \(\omega_R\)：拉比频率  
 
 ![alt](image/image-3.png)
@@ -555,7 +527,7 @@ $$
 
 ---
 
-### 1.3.11 近共振：失谐与广义拉比频率
+### 1.3.6 近共振：失谐与广义拉比频率
 
 失谐量：
 
@@ -614,7 +586,7 @@ $$
 
 ---
 
-### 1.3.12 Rabi 振荡的阻尼与退相干
+### 1.3.7 Rabi 振荡的阻尼与退相干
 
 - 弛豫与碰撞会抑制相干性（退相干）  
 - 增强电场可使 Rabi 振荡快于退相干，观察到振荡  
@@ -755,19 +727,10 @@ $$
 
 ## 情况 2：有限时间相互作用 & 非单色光（实际情况）
 
-有限作用时间意味着频率展宽。
+有限作用时间意味着频率展宽
 
-### 海森堡能量-时间不确定性原理（修正）
+### 海森堡能量-时间不确定性原理
 
-你原文写：
-
-$$
-\begin{aligned}
-\Delta\omega\,\Delta t \ge \frac{1}{2\pi}
-\end{aligned}
-$$
-
-更常用、规范的写法是：
 
 $$
 \begin{aligned}
@@ -867,7 +830,7 @@ $$
 
 ---
 
-### 强场与弱场对比（总结）
+### 强场与弱场对比
 
 | 场景 | 强场（\(\Omega \gg \Gamma\)） | 弱场（\(\Omega \ll \Gamma\)） |
 |---|---|---|
@@ -1090,7 +1053,7 @@ $$
 
 ### 1.4.5 朗伯-比尔定律、吸收截面与消光系数
 
-分子吸收截面（absorption cross section）：
+分子吸收截面：
 
 $$
 \begin{aligned}
@@ -1243,7 +1206,7 @@ $$
 
 ---
 
-### 1.5.2 均匀展宽：自然寿命展宽（lifetime broadening）
+### 1.5.2 均匀展宽：自然寿命展宽
 
 激发态寿命：
 
@@ -1307,7 +1270,7 @@ $$
 
 ---
 
-### 1.5.3 均匀展宽：碰撞/压力展宽（collision/pressure broadening）
+### 1.5.3 均匀展宽：碰撞/压力展宽
 
 碰撞改变偶极相位（退相干）→ 展宽。
 
@@ -1350,7 +1313,7 @@ $$
 
 ---
 
-### 1.5.4 非均匀展宽：多普勒展宽（Doppler broadening）
+### 1.5.4 非均匀展宽：多普勒展宽
 
 不同分子速度导致频率偏移 → 展宽。
 
