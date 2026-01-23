@@ -270,13 +270,13 @@ $$
   2) **自发发射（spontaneous emission）**  
      发射方向、相位、偏振随机  
 
-![alt](image\image.png)
+![alt](image/image.png)
 
-![alt](image\image-1.png)
+![alt](image/image-1.png)
 
 - 非弹性散射反映分子振动信息  
 
-![alt](image\image-2.png)
+![alt](image/image-2.png)
 
 ---
 
