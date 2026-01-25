@@ -611,6 +611,7 @@ $$
 | 跃迁概率 | 周期性振荡（\(P_{\max}\approx 1\)） | 概率小（\(P_{\max}\ll 1\)） |
 | 时间演化 | 相干性保持 | 退相干主导 |
 | 典型应用 | 量子操作、量子传感 | 光谱学、弱信号探测 |
+
 ---
 
 ### 1.3.8 弱场（弱微扰）极限
@@ -1057,9 +1058,9 @@ $$
 \begin{aligned}
 \langle \cos^2\theta\rangle
 &=\frac{\int_0^\pi \cos^2\theta\,\sin\theta\,d\theta}
-{\int_0^\pi \sin\theta\,d\theta} \\[6pt]
+{\int_0^\pi \sin\theta\,d\theta} 
 &=\frac{\left[ -\dfrac{\cos^3\theta}{3} \right]_0^\pi}
-{\left[ -\cos\theta \right]_0^\pi} \\[6pt]
+{\left[ -\cos\theta \right]_0^\pi} 
 &=\frac{\dfrac{2}{3}}{2}
 =\frac{1}{3}
 \end{aligned}
@@ -1068,7 +1069,7 @@ $$
 $$
 \begin{aligned}
 \langle |\boldsymbol{\mu}\cdot\mathbf{E}|^2\rangle
-&=\mu^2 E^2 \langle \cos^2\theta\rangle \\[6pt]
+&=\mu^2 E^2 \langle \cos^2\theta\rangle 
 &=\frac{1}{3}\,\mu^2 E^2
 \end{aligned}
 $$
@@ -1239,14 +1240,14 @@ $$
 
 ### 1.5.1 展宽类型
 
-#### 均匀展宽（homogeneous broadening）
+**均匀展宽**（homogeneous broadening）
 
 所有分子展宽相同（本征展宽）：
 
 - 自然寿命展宽（lifetime broadening）
 - 气相压力/碰撞展宽（collision/pressure broadening）
 
-#### 非均匀展宽（inhomogeneous broadening）
+**非均匀展宽**（inhomogeneous broadening）
 
 不同分子展宽不同：
 
