@@ -1,0 +1,2991 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pkchemlab.github.io/Notes/%E7%BB%93%E6%9E%84II%26%E5%88%86%E5%AD%90%E8%B0%B1%E5%AD%A6/chapter%201/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>chapter 1-光与分子的相互作用 - CPK's Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="CPK&#39;s Notes" class="md-header__button md-logo" aria-label="CPK's Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CPK's Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              chapter 1-光与分子的相互作用
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/pkchemlab/Notes" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pkchemlab/Notes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CPK&#39;s Notes" class="md-nav__button md-logo" aria-label="CPK's Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CPK's Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/pkchemlab/Notes" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pkchemlab/Notes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    计算化学导论
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    计算化学导论
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程主页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    结构II:分子谱学
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    结构II:分子谱学
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程主页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    chapter 1-光与分子的相互作用
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    chapter 1-光与分子的相互作用
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 光
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 光">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-wave-particle-duality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.1 波粒二象性（wave-particle duality）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.2 复指数表示
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.3 物理量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-photon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.4 光子（photon）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 黑体辐射
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 黑体辐射">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1 能量密度与强度
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2 与电场强度的关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3 普朗克黑体辐射定律
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.4 宇宙微波背景
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 光与二能级分子的相互作用（半经典处理）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 光与二能级分子的相互作用（半经典处理）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1 过程概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2 半经典近似
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3 含时薛定谔方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4 二能级系统 + 含时微扰
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135-rabi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.5 Rabi 振荡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#136" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.6 近共振：失谐与广义拉比频率
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#137-rabi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.7 Rabi 振荡的阻尼:弛豫与退相干
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#138" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.8 弱场（弱微扰）极限
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.8 弱场（弱微扰）极限">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1ttoinfty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情况 1：长时间相互作用极限（\(t\to\infty\)）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情况 2：有限时间相互作用 &amp; 非单色光
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 多分子系统的吸收和发射
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 多分子系统的吸收和发射">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1 二能级系统玻尔兹曼分布
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2 粒子数变化率方程与爱因斯坦系数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3 稳态平衡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4 爱因斯坦系数与跃迁偶极矩关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5 朗伯-比尔定律、吸收截面与消光系数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#146-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.6 朗伯-比尔定律推导（光子角度）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#147" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.7 从爱因斯坦系数再得到吸收截面
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 光谱线形函数与展宽
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 光谱线形函数与展宽">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1 展宽类型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2 均匀展宽：自然寿命展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3 均匀展宽：碰撞/压力展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.4 非均匀展宽：多普勒展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155-voigt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.5 Voigt 线形（卷积线形）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数据结构基础
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    数据结构基础
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程主页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    物理化学I
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    物理化学I
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程主页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Papers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 光
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 光">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-wave-particle-duality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.1 波粒二象性（wave-particle duality）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.2 复指数表示
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.3 物理量
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-photon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.4 光子（photon）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 黑体辐射
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 黑体辐射">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1 能量密度与强度
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2 与电场强度的关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3 普朗克黑体辐射定律
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.4 宇宙微波背景
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 光与二能级分子的相互作用（半经典处理）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 光与二能级分子的相互作用（半经典处理）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1 过程概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2 半经典近似
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3 含时薛定谔方程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4 二能级系统 + 含时微扰
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135-rabi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.5 Rabi 振荡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#136" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.6 近共振：失谐与广义拉比频率
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#137-rabi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.7 Rabi 振荡的阻尼:弛豫与退相干
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#138" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.8 弱场（弱微扰）极限
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.8 弱场（弱微扰）极限">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1ttoinfty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情况 1：长时间相互作用极限（\(t\to\infty\)）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        情况 2：有限时间相互作用 &amp; 非单色光
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 多分子系统的吸收和发射
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 多分子系统的吸收和发射">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1 二能级系统玻尔兹曼分布
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2 粒子数变化率方程与爱因斯坦系数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3 稳态平衡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4 爱因斯坦系数与跃迁偶极矩关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5 朗伯-比尔定律、吸收截面与消光系数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#146-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.6 朗伯-比尔定律推导（光子角度）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#147" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.7 从爱因斯坦系数再得到吸收截面
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 光谱线形函数与展宽
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 光谱线形函数与展宽">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1 展宽类型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2 均匀展宽：自然寿命展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3 均匀展宽：碰撞/压力展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.4 非均匀展宽：多普勒展宽
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155-voigt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.5 Voigt 线形（卷积线形）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-1">Chapter 1：光与分子的相互作用<a class="headerlink" href="#chapter-1" title="Permanent link">&para;</a></h1>
+<h2 id="11">1.1 光<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
+<h3 id="111-wave-particle-duality">1.1.1 波粒二象性（wave-particle duality）<a class="headerlink" href="#111-wave-particle-duality" title="Permanent link">&para;</a></h3>
+<p>由麦克斯韦方程组可得到平面波：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+E = E_0\cos(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+B = B_0\cos(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{E_0}{B_0}=c_0
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="112">1.1.2 复指数表示<a class="headerlink" href="#112" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\begin{aligned}
+\mathrm{Re}\!\left[E_0 e^{i(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)}\right]
+\end{aligned}
+\]</div>
+<p>等价于：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+E_0\frac{e^{i(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)}+e^{-i(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)}}{2}
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="113">1.1.3 物理量<a class="headerlink" href="#113" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(E\)</span>（V/m）：电场强度  </li>
+<li>
+<p>方向：<strong>偏振方向</strong></p>
+</li>
+<li>
+<p><span class="arithmatex">\(B\)</span>（T）：磁场强度  </p>
+</li>
+<li>
+<p>波矢 <span class="arithmatex">\(\mathbf{k}\)</span>（rad·m<span class="arithmatex">\(^{-1}\)</span>）：方向即为波的传播方向</p>
+</li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+|\mathbf{k}| = k = \frac{2\pi}{\lambda}
+\end{aligned}
+\]</div>
+<ul>
+<li>波数（cm<span class="arithmatex">\(^{-1}\)</span>）  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+\tilde{\nu}=\frac{1}{\lambda}
+\end{aligned}
+\]</div>
+<ul>
+<li>频率 <span class="arithmatex">\(\nu\)</span>（Hz）  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+\nu=\frac{1}{\tau}
+\end{aligned}
+\]</div>
+<ul>
+<li>角频率 <span class="arithmatex">\(\omega\)</span>（rad/s）  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+\omega=\frac{2\pi}{\tau}=2\pi\nu
+\end{aligned}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(\phi\)</span>：初始相位（rad）</li>
+</ul>
+<hr />
+<h3 id="114-photon">1.1.4 光子（photon）<a class="headerlink" href="#114-photon" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\begin{aligned}
+E=h\nu
+\end{aligned}
+\]</div>
+<blockquote>
+<p><span class="arithmatex">\(\lambda=400\,\mathrm{nm}\)</span> 
+$$
+\begin{aligned}
+E=\frac{hc}{\lambda}\approx 3.10\,\mathrm{eV}
+\end{aligned}
+$$</p>
+</blockquote>
+<hr />
+<h2 id="12">1.2 黑体辐射<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
+<p>在一定温度 <strong><span class="arithmatex">\(T\)</span></strong> 的腔体内，壁发射和吸收的电磁波达到平衡</p>
+<h3 id="121">1.2.1 能量密度与强度<a class="headerlink" href="#121" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>腔内总辐射能量密度</strong>：<span class="arithmatex">\(\rho\)</span>（J·m<span class="arithmatex">\(^{-3}\)</span>）</li>
+</ul>
+<p>考虑频率分布：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho=\int \rho_\nu\, d\nu
+\end{aligned}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(\rho_\nu\)</span>：<strong>光谱能量密度</strong>（J·m<span class="arithmatex">\(^{-3}\)</span>·Hz<span class="arithmatex">\(^{-1}\)</span>）  </li>
+</ul>
+<p>小孔辐射 → 可视作光源。</p>
+<ul>
+<li>小孔处辐射 <strong>功率强度（能流密度）</strong>：<span class="arithmatex">\(I\)</span>（W·m<span class="arithmatex">\(^{-2}\)</span>）</li>
+</ul>
+<p>考虑频率分布：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+I=\int I_\nu\, d\nu
+\end{aligned}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(I_\nu\)</span>：<strong>光谱功率强度</strong>（W·m<span class="arithmatex">\(^{-2}\)</span>·Hz<span class="arithmatex">\(^{-1}\)</span>）</li>
+</ul>
+<hr />
+<h3 id="122">1.2.2 与电场强度的关系<a class="headerlink" href="#122" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>设真空中的平面电磁波沿传播方向前进：
+$$
+\begin{aligned}
+E(t)=E_0\cos(\mathbf{k}\cdot\mathbf{r}-\omega t+\phi)
+\end{aligned}
+$$
+电磁场的瞬时能量密度：
+$$
+\begin{aligned}
+u(t)=\frac{1}{2}\varepsilon_0E^2(t)+\frac{1}{2\mu_0}B^2(t)
+\end{aligned}
+$$
+对真空平面波：
+$$
+\begin{aligned}
+B(t)=\frac{E(t)}{c},\qquad c^2=\frac{1}{\varepsilon_0\mu_0}
+\end{aligned}
+$$
+因此：
+$$
+\begin{aligned}
+\frac{1}{2\mu_0}B^2
+=\frac{1}{2\mu_0}\frac{E^2}{c^2}
+=\frac{1}{2}\varepsilon_0E^2
+\end{aligned}
+$$
+总能量密度：
+$$
+\begin{aligned}
+u(t)=\varepsilon_0E^2(t)
+\end{aligned}
+$$
+时间平均：
+$$
+\begin{aligned}
+\langle \cos^2(\cdots)\rangle=\frac{1}{2}
+\Rightarrow
+\langle E^2(t)\rangle=\frac{E_0^2}{2}
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\langle u\rangle=\varepsilon_0\langle E^2\rangle
+=\frac{1}{2}\varepsilon_0E_0^2
+\end{aligned}
+$$
+电磁波以速度 <span class="arithmatex">\(c\)</span> 传播，强度为：
+$$
+\begin{aligned}
+I=(\text{能量密度})\times c
+\Rightarrow
+I=\langle u\rangle c=\frac{1}{2}\varepsilon_0 c E_0^2
+\end{aligned}
+$$</p>
+</blockquote>
+<hr />
+<h3 id="123">1.2.3 普朗克黑体辐射定律<a class="headerlink" href="#123" title="Permanent link">&para;</a></h3>
+<p>稳定状态下，按频率的能量密度：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\nu)=\left(\frac{8\pi h\nu^3}{c^3}\right)\frac{1}{e^{h\nu/(k_B T)}-1}
+\end{aligned}
+\]</div>
+<p>量子化假设：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+E=n h\nu,\quad n=1,2,\dots
+\end{aligned}
+\]</div>
+<ul>
+<li>玻尔兹曼常数  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+k_B = 1.380\,6488\times10^{-23}\ \mathrm{J\,K^{-1}}
+\end{aligned}
+\]</div>
+<ul>
+<li>普朗克常数  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+h = 6.626\times10^{-34}\ \mathrm{J\,s}
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="124">1.2.4 宇宙微波背景<a class="headerlink" href="#124" title="Permanent link">&para;</a></h3>
+<p>宇宙诞生早期释放的光，被宇宙膨胀拉伸成的微波黑体辐射，频谱类似黑体辐射（约 <span class="arithmatex">\(2.7\,\mathrm{K}\)</span>）</p>
+<hr />
+<h2 id="13">1.3 光与二能级分子的相互作用（半经典处理）<a class="headerlink" href="#13" title="Permanent link">&para;</a></h2>
+<h3 id="131">1.3.1 过程概念<a class="headerlink" href="#131" title="Permanent link">&para;</a></h3>
+<ul>
+<li>吸收  </li>
+<li>发射<br />
+  1) <strong>受激发射（stimulated emission）</strong><br />
+     新光子与入射光子：频率相同、相位相同、传播方向相同、偏振相同 → <strong>相干</strong>  </li>
+</ul>
+<p>2) <strong>自发发射（spontaneous emission）</strong><br />
+     发射方向、相位、偏振随机  </p>
+<p><img alt="alt" src="../image/image.png" /></p>
+<p><img alt="alt" src="../image/image-1.png" /></p>
+<ul>
+<li>非弹性散射反映分子振动信息  </li>
+</ul>
+<p><img alt="alt" src="../image/image-2.png" /></p>
+<hr />
+<h3 id="132">1.3.2 半经典近似<a class="headerlink" href="#132" title="Permanent link">&para;</a></h3>
+<ul>
+<li>分子：量子化能级  </li>
+<li>光：经典电磁波<br />
+--&gt;研究：偶                       极分子在周期振荡且能量匹配的电场中的响应</li>
+</ul>
+<hr />
+<h3 id="133">1.3.3 含时薛定谔方程<a class="headerlink" href="#133" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\begin{aligned}
+H\Psi(t)=i\hbar\,\frac{\partial \Psi(t)}{\partial t}
+\end{aligned}
+\]</div>
+<p>若势能 <span class="arithmatex">\(V\)</span> 不含时：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Psi(\mathbf r,t)=\psi(\mathbf r)\,e^{-\,iEt/\hbar}
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+H\psi = E\psi
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="134">1.3.4 二能级系统 + 含时微扰<a class="headerlink" href="#134" title="Permanent link">&para;</a></h3>
+<p>外电磁场（光）作为含时微扰：</p>
+<ul>
+<li>非微扰本征态  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+E_1,\ |\varphi_1\rangle
+\qquad
+E_0,\ |\varphi_0\rangle
+\end{aligned}
+\]</div>
+<p>总哈密顿量：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\hat H=\hat H^{0}+\hat H'(t)
+\end{aligned}
+\]</div>
+<p>非微扰本征方程：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\hat H^{0}\,|\varphi_n\rangle=E_n\,|\varphi_n\rangle
+\end{aligned}
+\]</div>
+<p>微扰项（电偶极相互作用）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\hat H'(t)=\hat V(t)= -\hat{\mu}\cdot \mathbf E(\mathbf r,t)
+\approx -\mu E_0\cos(\omega t)
+\end{aligned}
+\]</div>
+<p>假设与近似：</p>
+<ul>
+<li>电场偏振方向与偶极方向平行  </li>
+<li>分子尺度远小于波长：电场可视作常数  </li>
+<li><strong>偶极近似</strong>：电场诱导极化</li>
+</ul>
+<p><strong>波函数展开</strong>，用非微扰本征态作完备基：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Psi(t)=a_0(t)\,\varphi_0\,e^{-iE_0t/\hbar}+a_1(t)\,\varphi_1\,e^{-iE_1t/\hbar}
+\end{aligned}
+\]</div>
+<p>代入含时薛定谔方程并投影：
+$$
+\begin{aligned}
+(\hat H^{0}+\hat H')\Psi(t)=i\hbar\frac{\partial \Psi(t)}{\partial t}
+\end{aligned}
+$$</p>
+<p><span class="arithmatex">\(\hat H^{0}\)</span> 两边抵消后,投影(左乘) <span class="arithmatex">\(\varphi_0\)</span> 和 <span class="arithmatex">\(\varphi_1\)</span>得到耦合方程：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+a_0\left\langle\varphi_0\vert \hat H' \vert\varphi_0\right\rangle
++a_1\left\langle\varphi_0\vert \hat H' \vert\varphi_1\right\rangle e^{-i(E_1-E_0)t/\hbar}=
+i\hbar\,\frac{da_0}{dt}
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+a_0\left\langle\varphi_1\vert \hat H' \vert\varphi_0\right\rangle e^{i(E_1-E_0)t/\hbar}
++a_1\left\langle\varphi_1\vert \hat H' \vert\varphi_1\right\rangle=
+i\hbar\,\frac{da_1}{dt}
+\end{aligned}
+\]</div>
+<p>由于偶极算符为奇宇称（与奇宇称的位置算符相关），常见情况下对角项为零：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\left\langle \varphi_0 \middle| \hat H' \middle| \varphi_0 \right\rangle=
+\left\langle \varphi_1 \middle| \hat H' \middle| \varphi_1 \right\rangle=0
+\end{aligned}
+\]</div>
+<p>定义能级差对应的本征角频率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\omega_{10}=\frac{E_1-E_0}{\hbar}
+\end{aligned}
+\]</div>
+<p>定义两能级跃迁偶极矩（耦合强弱）:
+$$
+\begin{aligned}
+\mu_{01}=\left\langle \varphi_0 \middle| \mu \middle| \varphi_1 \right\rangle,
+\qquad
+\mu_{10}=\left\langle \varphi_1 \middle| \mu \middle| \varphi_0 \right\rangle
+\end{aligned}
+$$</p>
+<p>得到耦合微分方程：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{da_0}{dt}=\frac{i}{\hbar}a_1\,E_0\,\mu_{01}\,e^{-i\omega_{10}t}\cos(\omega t)
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{da_1}{dt}=\frac{i}{\hbar}a_0\,E_0\,\mu_{10}\,e^{i\omega_{10}t}\cos(\omega t)
+\end{aligned}
+\]</div>
+<p>定义<strong>Rabi 频率</strong>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\omega_R=\frac{E_0\mu_{10}}{\hbar}
+\end{aligned}
+\]</div>
+<p>由：
+$$
+\begin{aligned}
+\cos(\omega t)=\frac{1}{2}\left(e^{i\omega t}+e^{-i\omega t}\right)
+\end{aligned}
+$$</p>
+<p>代入耦合方程，忽略高频项 <span class="arithmatex">\(e^{\pm i(\omega_{10}+\omega)t}\)</span> 后（旋转波近似）：
+$$
+\begin{aligned}
+\frac{d a_0}{d t} &amp;\approx \frac{i a_1 \omega_R}{2}\, e^{-i(\omega_{10}-\omega)t}, 
+\frac{d a_1}{d t} &amp;\approx \frac{i a_0 \omega_R}{2}\, e^{i(\omega_{10}-\omega)t}.
+\end{aligned}
+$$</p>
+<blockquote>
+<p>为什么旋转波近似：</p>
+<p>旋转波:把余弦驱动看成两个反向旋转的指数波
+$$
+\begin{aligned}
+\dot a(t) &amp;\sim e^{i\Omega t}
+\Rightarrow\quad
+\
+a(t) &amp;\sim \int_0^t e^{i\Omega t'}\,dt'
+= \frac{e^{i\Omega t}-1}{i\Omega}
+\end{aligned}
+$$
+若 <span class="arithmatex">\(\Omega\)</span> 大，积分结果小，对系统影响小</p>
+</blockquote>
+<p>完全共振时：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\omega_{10}=\omega
+\Rightarrow
+\frac{da_0}{dt}=\frac{i\omega_R}{2}\,a_1,
+\quad
+\frac{da_1}{dt}=\frac{i\omega_R}{2}\,a_0
+\end{aligned}
+\]</div>
+<p>初始条件（基态）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+a_0(0)=1,\qquad a_1(0)=0
+\end{aligned}
+\]</div>
+<p>解得：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+a_0(t)=\cos\left(\frac{\omega_R t}{2}\right)
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+a_1(t)=i\sin\left(\frac{\omega_R t}{2}\right)
+\end{aligned}
+\]</div>
+<p>（相位因子 <span class="arithmatex">\(i\)</span> 可并入基矢相位，最终概率不变）</p>
+<p>体系演化波函数：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Psi(t)=
+a_0(t)\,\varphi_0\,e^{-iE_0t/\hbar}
++
+a_1(t)\,\varphi_1\,e^{-iE_1t/\hbar}
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="135-rabi">1.3.5 Rabi 振荡<a class="headerlink" href="#135-rabi" title="Permanent link">&para;</a></h3>
+<p>激发态概率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_1(t)=|a_1(t)|^2=\sin^2\left(\frac{\omega_R t}{2}\right)
+\end{aligned}
+\]</div>
+<p>基态概率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_0(t)=|a_0(t)|^2=\cos^2\left(\frac{\omega_R t}{2}\right)
+\end{aligned}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(\omega\)</span>：外加电场频率  </li>
+<li><span class="arithmatex">\(\omega_{10}\)</span>：两态能量差对应频率</li>
+<li><span class="arithmatex">\(\omega_R\)</span>：拉比频率  </li>
+</ul>
+<p><img alt="alt" src="../image/image-3.png" /></p>
+<p>（忽略碰撞散射过程和衰减通道，如自发辐射）</p>
+<hr />
+<h3 id="136">1.3.6 近共振：失谐与广义拉比频率<a class="headerlink" href="#136" title="Permanent link">&para;</a></h3>
+<p>失谐量：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta=\omega_{10}-\omega
+\end{aligned}
+\]</div>
+<p>旋转波近似下：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{da_0}{dt}=\frac{i\omega_R}{2}\,e^{-i\Delta t}\,a_1
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{da_1}{dt}=\frac{i\omega_R}{2}\,e^{i\Delta t}\,a_0
+\end{aligned}
+\]</div>
+<p>广义拉比频率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Omega=\sqrt{\omega_R^2+\Delta^2}
+\end{aligned}
+\]</div>
+<p>激发态概率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+|a_1(t)|^2=\frac{\omega_R^2}{\Omega^2}\sin^2\left(\frac{\Omega t}{2}\right)
+\end{aligned}
+\]</div>
+<p>基态概率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+|a_0(t)|^2=
+1-\frac{\omega_R^2}{\Omega^2}\sin^2\left(\frac{\Omega t}{2}\right)
+\end{aligned}
+\]</div>
+<p>物理含义：</p>
+<ul>
+<li><span class="arithmatex">\(\Delta=0\)</span>：完全共振，<span class="arithmatex">\(|a_1|^2\)</span> 可达 1  </li>
+<li><span class="arithmatex">\(\Delta\neq 0\)</span>：最大激发概率降低  </li>
+<li>失谐越大：振荡更快（<span class="arithmatex">\(\Omega\)</span> 更大），振幅更小（<span class="arithmatex">\(\omega_R^2/\Omega^2\)</span> 更小）</li>
+</ul>
+<p><img alt="alt" src="../image/image-4.png" /></p>
+<hr />
+<h3 id="137-rabi">1.3.7 Rabi 振荡的阻尼:弛豫与退相干<a class="headerlink" href="#137-rabi" title="Permanent link">&para;</a></h3>
+<ul>
+<li>弛豫与碰撞（退相干，相位随机化）会抑制相干性  </li>
+<li>增强电场可使 Rabi 振荡快于退相干，观察到振荡  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+\omega_R=\frac{E_0\mu_{10}}{\hbar}
+\end{aligned}
+\]</div>
+<ul>
+<li>弱场：Rabi 周期长，退相干时间内无法完成完整振荡 → 概率小 + 弛豫衰减  </li>
+<li>NMR：退相干慢、微波脉冲强 → 易观察 Rabi 振荡  </li>
+<li>红外/可见：难观察到明显 Rabi 振荡  </li>
+</ul>
+<p><img alt="alt" src="../image/image-5.png" /></p>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>强场（<span class="arithmatex">\(\Omega \gg \Gamma\)</span>）</th>
+<th>弱场（<span class="arithmatex">\(\Omega \ll \Gamma\)</span>）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主导过程</td>
+<td>拉比振荡</td>
+<td>指数弛豫、线性响应</td>
+</tr>
+<tr>
+<td>跃迁概率</td>
+<td>周期性振荡（<span class="arithmatex">\(P_{\max}\approx 1\)</span>）</td>
+<td>概率小（<span class="arithmatex">\(P_{\max}\ll 1\)</span>）</td>
+</tr>
+<tr>
+<td>时间演化</td>
+<td>相干性保持</td>
+<td>退相干主导</td>
+</tr>
+<tr>
+<td>典型应用</td>
+<td>量子操作、量子传感</td>
+<td>光谱学、弱信号探测</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="138">1.3.8 弱场（弱微扰）极限<a class="headerlink" href="#138" title="Permanent link">&para;</a></h3>
+<p>弱场近似：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+a_0\simeq 1,\qquad a_1\simeq 0
+\end{aligned}
+\]</div>
+<p>近共振下：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{da_1}{dt}=\frac{i\omega_R}{2}e^{i\Delta t}a_0
+\ \simeq\
+\frac{i\omega_R}{2}e^{i\Delta t}
+\end{aligned}
+\]</div>
+<p>相互作用时间 <span class="arithmatex">\(t\)</span> 内跃迁概率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=|a_1(t)|^2=
+\left|
+\frac{i\omega_R}{2}\int_{0}^{t} e^{i\Delta t'}\,dt'
+\right|^2
+\end{aligned}
+\]</div>
+<p>积分：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\int_{0}^{t} e^{i\Delta t'}dt'=
+\frac{e^{i\Delta t}-1}{i\Delta}=
+e^{i\Delta t/2}\frac{2\sin(\Delta t/2)}{\Delta}
+\end{aligned}
+\]</div>
+<blockquote>
+<div class="arithmatex">\[
+\begin{aligned}
+e^{ix}-1
+&amp;= e^{ix/2}\left(e^{ix/2}-e^{-ix/2}\right)
+\end{aligned}
+\]</div>
+</blockquote>
+<p>得到：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=
+\frac{\omega_R^2}{\Delta^2}\sin^2\left(\frac{\Delta t}{2}\right)
+\end{aligned}
+\]</div>
+<p>代入 <span class="arithmatex">\(\omega_R=\dfrac{E_0\mu_{10}}{\hbar}\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=
+\frac{\mu_{10}^{\,2}E_0^{\,2}}{4\hbar^{2}}
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+\equiv f(t,\Delta)
+\end{aligned}
+\]</div>
+<p>结论：</p>
+<ul>
+<li><span class="arithmatex">\(\Delta=0\)</span> 时跃迁概率最大  </li>
+<li><span class="arithmatex">\(t\)</span> 越长，主峰半高全宽越窄  </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta \sim \frac{2\pi}{t}
+\end{aligned}
+\]</div>
+<p>有限作用时间导致 <strong><span class="arithmatex">\(\mathrm{sinc}^2\)</span></strong> 线形</p>
+<p><img alt="alt" src="../image/image-6.png" /></p>
+<hr />
+<h4 id="1ttoinfty">情况 1：长时间相互作用极限（<span class="arithmatex">\(t\to\infty\)</span>）<a class="headerlink" href="#1ttoinfty" title="Permanent link">&para;</a></h4>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}
+=\frac{\mu_{10}^{\,2}E_0^{\,2}}{4\hbar^{2}}
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+\end{aligned}
+\]</div>
+<p>长时间极限：无限窄谱线、单色光（由不确定性原理可知）</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+\Rightarrow 2\pi t\,\delta(\Delta)
+\end{aligned}
+\]</div>
+<p>因此（<span class="arithmatex">\(\omega=\omega_{10}\)</span>）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=
+\frac{2\pi\,\mu_{10}^{\,2}E_0^{\,2}}{4\hbar^{2}}\,t
+\end{aligned}
+\]</div>
+<p>跃迁速率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+W_{1\leftarrow 0}\equiv \frac{dP_{1\leftarrow 0}}{dt}=
+\frac{2\pi\,\mu_{10}^{\,2}E_0^{\,2}}{4\hbar^{2}}
+\propto \mu_{10}^{\,2}E_0^{\,2}
+\end{aligned}
+\]</div>
+<p>即费米黄金定规则：与光强与跃迁偶极有关。</p>
+<hr />
+<h4 id="2">情况 2：有限时间相互作用 &amp; 非单色光<a class="headerlink" href="#2" title="Permanent link">&para;</a></h4>
+<p>有限作用时间意味着频率展宽</p>
+<p><strong>海森堡能量-时间不确定性原理</strong></p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta E\,\Delta t \gtrsim \frac{\hbar}{2}
+\quad\Rightarrow\quad
+\Delta\omega\,\Delta t \gtrsim \frac{1}{2}
+\end{aligned}
+\]</div>
+<p><strong>光谱能量密度与电场</strong></p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu=\frac{\varepsilon_0E^2}{2}
+\Rightarrow
+E^2=\frac{2\rho_\nu}{\varepsilon_0}
+\end{aligned}
+\]</div>
+<p>单个频率分量贡献：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+dP_{1\leftarrow 0}=
+\frac{\mu_{10}^{\,2}}{4\hbar^{2}}
+\left(\frac{2\rho_\nu(\omega)}{\varepsilon_0}\right)
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2 d\omega
+\end{aligned}
+\]</div>
+<p>因此：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=
+\frac{\mu_{10}^{\,2}}{4\hbar^{2}}
+\int
+\frac{2\rho_\nu(\omega)}{\varepsilon_0}
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+d\omega
+\end{aligned}
+\]</div>
+<p>若 <span class="arithmatex">\(\rho_\nu(\omega)\)</span> 在 <span class="arithmatex">\(\omega_{10}\)</span> 附近变化缓慢：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\omega)\approx \rho_\nu(\omega_{10})
+\end{aligned}
+\]</div>
+<p>则：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}
+\approx
+\frac{\mu_{10}^{\,2}}{4\hbar^{2}}
+\frac{2\rho_\nu(\omega_{10})}{\varepsilon_0}
+\int
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+d\omega
+\end{aligned}
+\]</div>
+<p>利用：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\int
+\left[\frac{\sin(\Delta t/2)}{\Delta/2}\right]^2
+d\omega=2\pi t
+\end{aligned}
+\]</div>
+<p>得到：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+P_{1\leftarrow 0}=
+\frac{\pi\mu_{10}^{\,2}}{\varepsilon_0\hbar^{2}}
+\,\rho_\nu(\omega_{10})\,t
+\end{aligned}
+\]</div>
+<p>跃迁速率：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+W_{1\leftarrow 0}=
+\frac{\pi\mu_{10}^{\,2}}{\varepsilon_0\hbar^{2}}
+\,\rho_\nu(\omega_{10})
+\end{aligned}
+\]</div>
+<hr />
+<h2 id="14">1.4 多分子系统的吸收和发射<a class="headerlink" href="#14" title="Permanent link">&para;</a></h2>
+<p><img alt="alt" src="../image/image-7.png" /></p>
+<h3 id="141">1.4.1 二能级系统玻尔兹曼分布<a class="headerlink" href="#141" title="Permanent link">&para;</a></h3>
+<p>考虑温度为 <span class="arithmatex">\(T\)</span> 的黑体中，体积 <span class="arithmatex">\(1\,\mathrm{m^3}\)</span> 内有 <span class="arithmatex">\(N\)</span> 个相同两能级粒子：</p>
+<ul>
+<li>能级：<span class="arithmatex">\(E_1&gt;E_0\)</span></li>
+<li>粒子数：上能级 <span class="arithmatex">\(N_1\)</span>，下能级 <span class="arithmatex">\(N_0\)</span></li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+N=N_0+N_1
+\end{aligned}
+\]</div>
+<p>跃迁过程：</p>
+<ul>
+<li>吸收：<span class="arithmatex">\(B_{0\to 1}\)</span></li>
+<li>受激辐射：<span class="arithmatex">\(B_{1\to 0}\)</span></li>
+<li>自发辐射：<span class="arithmatex">\(A_{1\to 0}\)</span></li>
+</ul>
+<p>能级差对应光子能量：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+h\nu_{10}=E_1-E_0
+\end{aligned}
+\]</div>
+<p>玻尔兹曼分布（热平衡）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{N_1}{N_0}=e^{-h\nu_{10}/kT}
+\end{aligned}
+\]</div>
+<p>只有在 <span class="arithmatex">\(0\,\mathrm{K}\)</span> 时完全处于基态</p>
+<hr />
+<h3 id="142">1.4.2 粒子数变化率方程与爱因斯坦系数<a class="headerlink" href="#142" title="Permanent link">&para;</a></h3>
+<p>速率方程：变化率=单位时间跃迁概率*某个态的粒子数</p>
+<p>根据费米黄金规则：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+ \quad W \propto E^2
+\end{aligned}
+\]</div>
+<p><span class="arithmatex">\(E^2\)</span> 正比于能量密度 / 光强：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+E^2 \propto \rho_\nu \quad (\text{或 } I)
+\end{aligned}
+\]</div>
+<p>所以：</p>
+<p>$$
+\begin{aligned}
+W \propto \rho_\nu
+\end{aligned}
+$$
+因此定义线性系数为<span class="arithmatex">\(B\)</span> ，所以对上能级粒子数 <span class="arithmatex">\(N_1\)</span>(此处将三种作用分开写)：</p>
+<p><strong>吸收 <span class="arithmatex">\(0\to 1\)</span></strong></p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{dN_1}{dt}=B_{0\to 1}\,\rho_\nu(\nu_{10})\,N_0
+\end{aligned}
+\]</div>
+<p><strong>受激辐射 <span class="arithmatex">\(1\to 0\)</span></strong></p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{dN_1}{dt}=-B_{1\to 0}\,\rho_\nu(\nu_{10})\,N_1
+\end{aligned}
+\]</div>
+<p><strong>自发辐射 <span class="arithmatex">\(1\to 0\)</span></strong></p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{dN_1}{dt}=-A_{1\to 0}\,N_1
+\end{aligned}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(A,B\)</span> 为<strong>爱因斯坦系数</strong></li>
+<li><span class="arithmatex">\(A\)</span> 单位：<span class="arithmatex">\(\mathrm{s^{-1}}\)</span></li>
+<li><span class="arithmatex">\(B\)</span> 单位：<span class="arithmatex">\(\mathrm{m^{3}\,J^{-1}\,s^{-2}}\)</span></li>
+</ul>
+<hr />
+<h3 id="143">1.4.3 稳态平衡<a class="headerlink" href="#143" title="Permanent link">&para;</a></h3>
+<p>稳态 <span class="arithmatex">\(dN_1/dt=0\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+B_{0\to 1}\rho_\nu N_0-
+B_{1\to 0}\rho_\nu N_1-
+A_{1\to 0}N_1=0
+\end{aligned}
+\]</div>
+<p>整理：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\nu_{10})=
+\frac{A_{1\to 0}}
+{B_{0\to 1}\dfrac{N_0}{N_1}-B_{1\to 0}}
+\end{aligned}
+\]</div>
+<p>玻尔兹曼关系：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{N_0}{N_1}=e^{h\nu_{10}/kT}
+\end{aligned}
+\]</div>
+<p>得到：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\nu_{10})=
+\frac{A_{1\to 0}}
+{B_{0\to 1}e^{h\nu_{10}/kT}-B_{1\to 0}}
+\end{aligned}
+\]</div>
+<p>普朗克公式：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\nu_{10})=
+\left(\frac{8\pi h\nu_{10}^{\,3}}{c^{3}}\right)
+\frac{1}{e^{h\nu_{10}/kT}-1}
+\end{aligned}
+\]</div>
+<p>比较可得：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+B_{0\to 1}=B_{1\to 0}
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+A_{1\to 0}=
+\frac{8\pi h\nu_{10}^{\,3}}{c^{3}}\,B_{1\to 0}
+\end{aligned}
+\]</div>
+<blockquote>
+<p>黑体显然不是一个二能级系统，二能级系统相当于是黑体内的一个探针，在某处的能量密度应符合普朗克公式。</p>
+</blockquote>
+<p>结论：</p>
+<ul>
+<li>吸收与受激辐射系数相等  </li>
+<li>自发辐射系数随频率三次方增长：频率越高越容易自发辐射</li>
+</ul>
+<hr />
+<h3 id="144">1.4.4 爱因斯坦系数与跃迁偶极矩关系<a class="headerlink" href="#144" title="Permanent link">&para;</a></h3>
+<p>宏观：
+$$
+\begin{aligned}
+W_{1\leftarrow 0}=B_{0\to 1}\,\rho_\nu(\nu_{10})
+\end{aligned}
+$$</p>
+<p>频率变量关系：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho_\nu(\nu_{10})=2\pi\,\rho_\nu(\omega_{10})
+\end{aligned}
+\]</div>
+<p>微观（有限时间相互作用）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+W_{1\leftarrow 0}=
+\frac{\pi\mu_{10}^{\,2}}{\varepsilon_0\hbar^{2}}
+\,\rho_\nu(\omega_{10})
+\end{aligned}
+\]</div>
+<p>考虑随机偏振：有效因子 <strong><span class="arithmatex">\(1/3\)</span></strong></p>
+<blockquote>
+<p>在<strong>各向同性分布</strong>下，取极角 <span class="arithmatex">\(\theta\in[0,\pi]\)</span>，其概率密度为<br />
+[
+P(\theta)\propto \sin\theta
+]
+因此有
+$$
+\begin{aligned}
+\langle \cos^2\theta\rangle
+&amp;=\frac{\int_0^\pi \cos^2\theta\,\sin\theta\,d\theta}
+{\int_0^\pi \sin\theta\,d\theta} 
+&amp;=\frac{\left[ -\dfrac{\cos^3\theta}{3} \right]_0^\pi}
+{\left[ -\cos\theta \right]_0^\pi} 
+&amp;=\frac{\dfrac{2}{3}}{2}
+=\frac{1}{3}
+\end{aligned}
+$$
+于是对电偶极相互作用有
+$$
+\begin{aligned}
+\langle |\boldsymbol{\mu}\cdot\mathbf{E}|^2\rangle
+&amp;=\mu^2 E^2 \langle \cos^2\theta\rangle 
+&amp;=\frac{1}{3}\,\mu^2 E^2
+\end{aligned}
+$$</p>
+</blockquote>
+<div class="arithmatex">\[
+\begin{aligned}
+W_{1\leftarrow 0}=
+\frac{\pi\mu_{10}^{\,2}}{3\varepsilon_0\hbar^{2}}
+\,\rho_\nu(\omega_{10})
+\end{aligned}
+\]</div>
+<p>对比得：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+B_{0\to 1}=
+\frac{\mu_{10}^{\,2}}{6\varepsilon_0\hbar^{2}}
+\end{aligned}
+\]</div>
+<p>进一步：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+A_{1\to 0}=
+\frac{8\pi h\nu_{10}^{\,3}}{6\varepsilon_0\hbar^{2}c^{3}}
+\,\mu_{10}^{\,2}
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="145-">1.4.5 朗伯-比尔定律、吸收截面与消光系数<a class="headerlink" href="#145-" title="Permanent link">&para;</a></h3>
+<p>分子吸收截面：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\sigma=\frac{2\pi^{2}\mu_{10}^{\,2}\nu}{3\varepsilon_0 h c}
+\end{aligned}
+\]</div>
+<p>朗伯-比尔定律（截面形式）：</p>
+<p>设入射强度 <span class="arithmatex">\(I_0\)</span>，传播距离 <span class="arithmatex">\(L\)</span>，分子数密度 <span class="arithmatex">\(N\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+I=I_0 e^{-\sigma N L}
+\end{aligned}
+\]</div>
+<p>常用形式（摩尔消光系数）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+I=I_0\,10^{-\varepsilon c l}
+\end{aligned}
+\]</div>
+<p>其中：</p>
+<ul>
+<li><span class="arithmatex">\(\varepsilon\)</span>：摩尔消光系数（<span class="arithmatex">\(\mathrm{L\,mol^{-1}\,cm^{-1}}\)</span>）</li>
+<li><span class="arithmatex">\(c\)</span>：浓度（<span class="arithmatex">\(\mathrm{mol\,L^{-1}}\)</span>）</li>
+<li><span class="arithmatex">\(l\)</span>：光程（cm）</li>
+</ul>
+<p>说明：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\varepsilon \sim \sigma \sim \mu_{10}^{\,2}
+\end{aligned}
+\]</div>
+<p>实验测得 <span class="arithmatex">\(\varepsilon\)</span> 可反推 <span class="arithmatex">\(\mu_{10}\)</span>。</p>
+<hr />
+<h3 id="146-">1.4.6 朗伯-比尔定律推导（光子角度）<a class="headerlink" href="#146-" title="Permanent link">&para;</a></h3>
+<p>光子通量/光强 <span class="arithmatex">\(F\)</span>，数密度 <span class="arithmatex">\(N\)</span>，截面 <span class="arithmatex">\(\sigma\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+dF=-F\,\sigma N\,dx
+\end{aligned}
+\]</div>
+<p>积分：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\ln\left(\frac{F}{F_0}\right)=-\sigma Nl
+\end{aligned}
+\]</div>
+<p>因 <span class="arithmatex">\(I\propto F\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\ln\left(\frac{I}{I_0}\right)=-\sigma Nl
+\Rightarrow
+I=I_0e^{-\sigma Nl}
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="147">1.4.7 从爱因斯坦系数再得到吸收截面<a class="headerlink" href="#147" title="Permanent link">&para;</a></h3>
+<p>光子通量：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+F_0=\frac{I_0}{h\nu}
+\end{aligned}
+\]</div>
+<p>弱场近似 <span class="arithmatex">\(N_0\simeq N\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{dN_1}{dt}=B_{0\to 1}\,\rho\,N
+\end{aligned}
+\]</div>
+<p>辐射能量密度与强度：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\rho=\frac{I_0}{c}=\frac{h\nu F_0}{c}
+\end{aligned}
+\]</div>
+<p>定义截面：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\frac{dN_1}{dt}=\sigma_{10}\,N\,F_0
+\end{aligned}
+\]</div>
+<p>得到：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\sigma_{10}=
+\frac{2\pi^{2}\mu_{10}^{\,2}\nu}{3\varepsilon_0 h c}
+\end{aligned}
+\]</div>
+<hr />
+<h2 id="15">1.5 光谱线形函数与展宽<a class="headerlink" href="#15" title="Permanent link">&para;</a></h2>
+<p>排除仪器测量误差，光谱一般不是一条“线”，而是一个“峰”。</p>
+<p>线形函数：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+g(\nu-\nu_{10})
+\end{aligned}
+\]</div>
+<hr />
+<h3 id="151">1.5.1 展宽类型<a class="headerlink" href="#151" title="Permanent link">&para;</a></h3>
+<p><strong>均匀展宽</strong>（homogeneous broadening）</p>
+<p>所有分子展宽相同（本征展宽）：</p>
+<ul>
+<li>自然寿命展宽（lifetime broadening）</li>
+<li>气相压力/碰撞展宽（collision/pressure broadening）</li>
+</ul>
+<p><strong>非均匀展宽</strong>（inhomogeneous broadening）</p>
+<p>不同分子展宽不同：</p>
+<ul>
+<li>多普勒展宽（气相速度分布）</li>
+<li>凝聚相（溶液）中不同化学环境</li>
+</ul>
+<p>气相展宽小，看起来更“毛刺”，包含更多信息。</p>
+<hr />
+<h3 id="152">1.5.2 均匀展宽：自然寿命展宽<a class="headerlink" href="#152" title="Permanent link">&para;</a></h3>
+<p>激发态寿命：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\gamma=\frac{1}{\tau_{sp}}=A_{1\to 0}
+\end{aligned}
+\]</div>
+<p>洛伦兹线形：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+g(\nu-\nu_{10})=
+\frac{\gamma}{
+(\gamma/2)^2+4\pi^2(\nu-\nu_{10})^2
+}
+\end{aligned}
+\]</div>
+<p>半高全宽（FWHM）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta\nu_{1/2}=
+\frac{\gamma}{2\pi}=
+\frac{1}{2\pi\tau_{sp}}
+\end{aligned}
+\]</div>
+<p>频域与时域相关性：可由谱线展宽推测寿命。</p>
+<p>能量-时间不确定性验证：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta E \approx h\,\Delta\nu_{1/2}=
+\frac{h}{2\pi\tau_{sp}}
+\end{aligned}
+\]</div>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta t \approx \tau_{sp}
+\Rightarrow
+\Delta E\,\Delta t\approx \hbar
+\end{aligned}
+\]</div>
+<p>例：Na 原子 <span class="arithmatex">\(589\,\mathrm{nm}\)</span> D 线：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\tau_{sp}=16\,\mathrm{ns},
+\qquad
+\Delta\nu_{1/2}\approx 10\,\mathrm{MHz}
+\end{aligned}
+\]</div>
+<p><img alt="alt" src="../image/image-8.png" /></p>
+<hr />
+<h3 id="153">1.5.3 均匀展宽：碰撞/压力展宽<a class="headerlink" href="#153" title="Permanent link">&para;</a></h3>
+<p>碰撞改变偶极相位（退相干）→ 展宽。</p>
+<p>时域 → 频域理解：</p>
+<ul>
+<li>稳定正弦波 → 很窄谱线  </li>
+<li>振幅指数衰减 → 谱线变宽  </li>
+<li>相位随机中断（碰撞）→ 更宽  </li>
+</ul>
+<p><img alt="alt" src="../image/image-9.png" /></p>
+<p>碰撞相干时间 <span class="arithmatex">\(T_2\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta\nu_{1/2}=\frac{1}{\pi T_2}
+\end{aligned}
+\]</div>
+<p>压力依赖：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta\nu_{1/2}=bp
+\end{aligned}
+\]</div>
+<p>典型量级：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+b \sim 10\ \text{MHz per Torr}
+\end{aligned}
+\]</div>
+<p>例：NH<span class="arithmatex">\(_3\)</span> 在 <span class="arithmatex">\(\sim 10\,\mu\text{m}\)</span> 吸收峰：压力越大谱线越宽（液相 <span class="arithmatex">\(\gg\)</span> 气相）。<br />
+本征性质需在真空中测量。</p>
+<p><img alt="alt" src="../image/image-11.png" /></p>
+<hr />
+<h3 id="154">1.5.4 非均匀展宽：多普勒展宽<a class="headerlink" href="#154" title="Permanent link">&para;</a></h3>
+<p>不同分子速度导致频率偏移 → 展宽。</p>
+<p><img alt="alt" src="../image/image-13.png" /></p>
+<p>多普勒频移（沿 <span class="arithmatex">\(\mathbf{k}\)</span> 方向速度分量）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\nu'=\nu\left(1\pm \frac{v}{c}\right)
+\end{aligned}
+\]</div>
+<p>速度分布（麦克斯韦-玻尔兹曼）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+p_v\,dv=
+\left(\frac{m}{2\pi kT}\right)^{1/2}
+\exp\left(-\frac{mv^2}{2kT}\right)\,dv
+\end{aligned}
+\]</div>
+<p><img alt="alt" src="../image/image-12.png" /></p>
+<p>归一化多普勒线形（高斯）：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+g_D(\nu-\nu_0)=
+\frac{1}{\nu_0}
+\left(\frac{mc^2}{2\pi kT}\right)^{1/2}
+\exp\left[
+-\frac{mc^2(\nu-\nu_0)^2}{2kT\nu_0^{\,2}}
+\right]
+\end{aligned}
+\]</div>
+<p>性质：</p>
+<ul>
+<li>多普勒展宽属于 <strong>非均匀展宽</strong></li>
+<li>温度越高 → 展宽越大</li>
+<li>质量越大 → 展宽越小</li>
+</ul>
+<p>多普勒 FWHM：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\Delta\nu_D=
+2\nu_0\sqrt{\frac{2kT\ln(2)}{mc^2}}
+\end{aligned}
+\]</div>
+<p>例：Na 原子 589 nm D 线（<span class="arithmatex">\(T=300\,\mathrm{K}\)</span>）：</p>
+<ul>
+<li>寿命展宽：<span class="arithmatex">\(10\,\mathrm{MHz}\)</span>  </li>
+<li><span class="arithmatex">\(1\,\mathrm{Torr}\)</span> 碰撞展宽：<span class="arithmatex">\(27\,\mathrm{MHz}\)</span>  </li>
+<li>多普勒展宽：<span class="arithmatex">\(1317\,\mathrm{MHz}\)</span></li>
+</ul>
+<p>非均匀展宽为主，高斯展宽最常见。</p>
+<p><img alt="alt" src="../image/image-15.png" /></p>
+<p>红线为无多普勒展宽的谱线。</p>
+<hr />
+<h3 id="155-voigt">1.5.5 Voigt 线形（卷积线形）<a class="headerlink" href="#155-voigt" title="Permanent link">&para;</a></h3>
+<p>实际谱线轮廓常是 <strong>均匀展宽（Lorentz）</strong> 与 <strong>非均匀展宽（Gaussian）</strong> 的卷积：</p>
+<ul>
+<li>均匀展宽：洛伦兹函数  </li>
+<li>非均匀展宽：高斯函数  </li>
+</ul>
+<p><img alt="alt" src="../image/image-14.png" /></p>
+<p>Voigt 线形：             </p>
+<div class="arithmatex">\[
+\begin{aligned}
+g(\nu-\nu_0)=
+\int g_L(\nu'-\nu_0)\,g_H(\nu-\nu')\,d\nu'
+\end{aligned}
+\]</div>
+<p><img alt="alt" src="../image/image-16.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="上一页: 课程主页">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                课程主页
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80/" class="md-footer__link md-footer__link--next" aria-label="下一页: 课程主页">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                课程主页
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Peikai Chen
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

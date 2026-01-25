@@ -1,0 +1,19 @@
+
+:root {
+  --md-text-font: "LXGW WenKai", "Microsoft YaHei", sans-serif;
+  --md-code-font: "JetBrains Mono", "Cascadia Code", monospace;
+}
+.grid.cards > ul > li {
+  border-radius: 14px;
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.md-typeset {
+  line-height: 1.75;
+  font-family: var(--md-text-font);
+}
+code, pre {
+  font-family: var(--md-code-font);
+}
